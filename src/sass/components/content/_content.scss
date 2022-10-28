@@ -8,6 +8,7 @@
     background-color: $primary-bg-color;
 
     overflow-y: scroll;
+    scroll-behavior: smooth;
 }
 
 .content__title {
