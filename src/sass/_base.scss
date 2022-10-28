@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     color: $primary-text-color;
     font-family: 'Roboto', sans-serif;
@@ -5,6 +9,8 @@ body {
     font-weight: 400;
     line-height: 1.4545;
     background-color: $primary-bg-color;
+
+
 }
 
 h1,

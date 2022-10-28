@@ -1,0 +1,37 @@
+{{#each this}}
+<li id="{{catId}}" class="category-list__item category-list__item--accent-border" >
+    <section class="category">
+        <h2 class="category__title">{{catTitle}}</h2>
+
+        <div class="category__inner">
+            <!--  1-category  & 1-sub-category -->
+
+            {{#each sub}}
+            <div class="sub-category">
+                <h3 class="sub-category__label">{{label}}</h3>
+                <ul class="sub-category__list">
+
+                    {{#each products}}
+                    <li class="sub-category__item">
+                        <a class="link product-card" href="" 
+                        data-cat-id="{{catId}}" 
+                        data-sub-id="{{subId}}" 
+                        data-prod-id="{{id}}">
+                            <div class="product-card__thumb">
+                                <img class="product-card__image" src="{{imgUrl}}"
+                                    alt="{{title}}" />
+                            </div>
+                            <h4 class="product-card__title">{{title}}</h4>
+                        </a>
+                    </li>
+                    {{/each }}    
+
+                </ul>
+            </div>
+            {{/each}}
+
+            
+        </div>
+    </section>
+</li>
+{{/each }}
