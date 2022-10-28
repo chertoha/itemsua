@@ -1,0 +1,9 @@
+.link {
+    color: inherit;
+    text-decoration: none;
+    transition: color $default-transition-time $default-transition-func;
+}
+
+.link:hover {
+    color: $accent-color;
+}

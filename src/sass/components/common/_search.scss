@@ -1,0 +1,55 @@
+.search {
+    position: relative;
+}
+
+.search__input {
+    color: #7B7B7B;
+    font-size: 14px;
+    line-height: 1.14;
+
+    border: none;
+    border-bottom: 1px solid $primary-border-color;
+
+    &--page-header {
+        padding-left: 10px;
+        padding-right: 25px;
+        padding-bottom: 5px;
+        width: 300px;
+    }
+
+    &--filter {
+        width: 100%;
+        font-size: 11px;
+        line-height: 1.4545;
+        padding-left: 20px;
+        padding-right: 5px;
+
+    }
+
+
+}
+
+.search__input:focus,
+.search__input:focus-visible {
+    outline: none;
+}
+
+.search__input::-webkit-search-cancel-button {
+    appearance: none;
+}
+
+.search__submit {
+    position: absolute;
+
+    color: #7B7B7B;
+
+    &--prepend {
+        bottom: 4px;
+        left: 5px;
+    }
+
+    &--append {
+        bottom: 4px;
+        right: 8px;
+    }
+}

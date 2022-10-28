@@ -1,0 +1,20 @@
+.header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: $page-header-height;
+
+    padding-left: 15px;
+    padding-right: 30px;
+
+    border-bottom: 3px solid $primary-border-color;
+    // background-color: teal;
+    background-color: $primary-bg-color;
+
+    display: flex;
+    align-items: center;
+
+
+
+}

@@ -1,0 +1,7 @@
+@mixin set-item-margins ($direction, $value) {
+    margin-#{$direction}: $value;
+
+    &:last-child {
+        margin-#{$direction}: 0;
+    }
+}
