@@ -15,6 +15,56 @@
     display: flex;
     align-items: center;
 
+    &__search {
+        margin-left: 60px;
+        padding-top: 5px;
+    }
+
+}
+
+.nav {
+    margin-left: auto;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+}
+
+.nav-list__item {
+    @include set-item-margins (right, 60px);
+}
+
+.nav-list__link {
+    display: block;
+
+    padding-top: 19px;
+    padding-bottom: 19px;
+
+    color: $accent-color;
+    font-size: 16px;
+    line-height: 1.1875;
+
+    &:hover {
+        color: $hovered-accent-color;
+    }
+}
 
 
+
+.login-button {
+    color: $accent-color;
+    font-size: 16px;
+    line-height: 1.1875;
+
+    display: flex;
+    align-items: center;
+
+    &:hover {
+        color: $hovered-accent-color;
+    }
+}
+
+.login-button__icon {
+    margin-left: 5px;
 }

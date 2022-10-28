@@ -1,0 +1,10 @@
+.category-list {}
+
+.category-list__item {
+
+
+    &--accent-border {
+        border-top: 1px solid $accent-color;
+    }
+
+}

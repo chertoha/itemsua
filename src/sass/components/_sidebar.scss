@@ -9,5 +9,47 @@
 
     overflow-y: scroll;
 
+    &--category-tree {
+        padding: 10px 20px 15px 15px;
+        background-color: $primary-bg-color;
+    }
 
+    &--filter {
+        padding: 10px 15px;
+        background-color: $secondary-bg-color;
+    }
+}
+
+.tree {}
+
+.tree__title {
+    padding-bottom: 7px;
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    color: $primary-title-color;
+
+    border-bottom: 1px solid $accent-color;
+}
+
+.tree-list {
+    margin-top: 13px;
+    font-size: 12px;
+    line-height: 1.167;
+}
+
+.tree-list__item {
+    @include set-item-margins (bottom, 12px);
+}
+
+
+
+.tree-list__link {
+    color: $secondary-text-color;
+
+    &--current {
+        font-weight: 500;
+        color: $accent-color;
+    }
 }
