@@ -1,0 +1,31 @@
+.breadcrumbs {
+    display: flex;
+    align-items: center;
+
+    &--margin-bottom {
+        margin-bottom: 10px;
+    }
+}
+
+.breadcrumbs__item {}
+
+.breadcrumbs__link {
+    font-size: 11px;
+    line-height: 1.1818;
+    letter-spacing: 0.06em;
+    color: #999999;
+
+    &--current {
+        font-weight: 700;
+        color: #666666;
+    }
+}
+
+
+
+.breadcrumbs__icon {
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.breadcrumbs__link--curent {}

@@ -1,2 +1,2 @@
-import './js/mainPageCategories';
-import './js/sidebarList';
+import './js/contentMainPage/mainPageCategories';
+import './js/contentMainPage/treeList';

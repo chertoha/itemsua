@@ -1,0 +1,25 @@
+.image-card-set {
+    display: flex;
+    margin-bottom: 8px;
+
+    &--row {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    &--wrap-row {
+        flex-direction: row;
+        flex-wrap: wrap;
+        column-gap: 30px;
+        row-gap: 5px;
+    }
+
+
+    &--column {
+        flex-direction: column;
+
+        & .image-card-set__item {
+            @include set-item-margins (bottom, 5px);
+        }
+    }
+}

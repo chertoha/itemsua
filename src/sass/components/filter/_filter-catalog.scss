@@ -1,0 +1,23 @@
+.filter-catalog {}
+
+
+
+.filter-catalog__clear-all {
+    display: block;
+
+    margin-bottom: 5px;
+
+    color: $primary-text-color;
+    font-size: 11px;
+    font-weight: 500;
+    text-align: right;
+}
+
+.filter-catalog__item {
+    padding-top: 8px;
+    padding-bottom: 12px;
+
+    &:not(:last-child) {
+        border-bottom: 1px solid $accent-color;
+    }
+}

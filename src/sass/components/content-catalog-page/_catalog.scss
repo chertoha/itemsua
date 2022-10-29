@@ -1,0 +1,60 @@
+.catalog {
+    margin-top: 20px;
+}
+
+.catalog__item {
+    @include set-item-margins(bottom, 20px)
+}
+
+.catalog__section {}
+
+.catalog__label {
+    padding: 6px 15px;
+    margin-bottom: 15px;
+
+    background-color: $secondary-bg-color;
+}
+
+.catalog-product-list {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    row-gap: 15px;
+}
+
+.catalog-product-list__item {}
+
+.catalog-card {
+    padding: 5px 10px;
+    width: 350px;
+    height: 115px;
+    display: flex;
+    align-items: center;
+
+
+
+    &:hover {
+        border: 1px solid $accent-color;
+    }
+}
+
+.catalog-card__thumb {
+    @extend %flex-center;
+
+    flex-shrink: 0;
+    width: 100px;
+    height: 100px;
+}
+
+.catalog-card__image {}
+
+.catalog-card__meta {
+    margin-left: 16px;
+
+}
+
+.catalog-card__title {}
+
+.catalog-card__text {
+    margin-top: 2px;
+}

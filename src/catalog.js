@@ -1,0 +1,1 @@
+import './js/contentCatalogPage/catalogPageContent';

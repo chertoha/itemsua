@@ -1,11 +1,11 @@
-import { mainPageProductsList } from '../utils/data/mainPageProductsList';
-import template from '../templates/sidebar-tmpl.hbs';
+import { mainPageProductsList } from '../../utils/data/mainPageProductsList';
+import template from '../../templates/sidebar-tmpl.hbs';
 
-const sidebarList = document.querySelector('.js-tree-list');
+const treeList = document.querySelector('.js-tree-list');
 
-sidebarList.innerHTML = template(mainPageProductsList);
+treeList.innerHTML = template(mainPageProductsList);
 
-sidebarList.addEventListener('click', e => {
+treeList.addEventListener('click', e => {
   const ref = e.target;
   if (!ref.classList.contains('tree-list__link')) {
     return;

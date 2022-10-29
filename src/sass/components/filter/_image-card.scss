@@ -1,0 +1,32 @@
+.image-card {
+
+    &--horizontal {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    &--vertical {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.image-card__thumb {
+    &--short {
+        width: 44px;
+        margin-bottom: 5px;
+    }
+
+    &--wide {
+        width: 95px;
+        margin-right: 10px;
+    }
+
+    &--meta-column {
+        width: 37px;
+        margin-bottom: 5px;
+    }
+
+
+}

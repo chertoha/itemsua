@@ -1,0 +1,36 @@
+.filter {}
+
+.filter__attr {
+    margin-bottom: 8px;
+
+
+}
+
+.filter__value {
+
+    color: #7B7B7B;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 1.4545;
+}
+
+.value-list {
+    max-height: 120px;
+
+    display: inline-flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    column-gap: 28px;
+}
+
+.value-list__item {
+
+    @include set-item-margins (bottom, 4px);
+}
+
+.filter__select-list {
+    margin-top: 5px;
+    padding: 10px 16px;
+    border: none;
+    width: 100%
+}
